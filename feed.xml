@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jwilson1172.github.io/Jwilson1172.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jwilson1172.github.io/Jwilson1172.github.io/" rel="alternate" type="text/html" /><updated>2020-03-16T03:45:38-05:00</updated><id>https://jwilson1172.github.io/Jwilson1172.github.io/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://jwilson1172.github.io/Jwilson1172.github.io/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://jwilson1172.github.io/Jwilson1172.github.io/jupyter/2020/02/20/test</id><content type="html" xml:base="https://jwilson1172.github.io/Jwilson1172.github.io/jupyter/2020/02/20/test.html">&lt;!--
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jwilson1172.github.io/Jwilson1172.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jwilson1172.github.io/Jwilson1172.github.io/" rel="alternate" type="text/html" /><updated>2020-03-16T03:53:23-05:00</updated><id>https://jwilson1172.github.io/Jwilson1172.github.io/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">How To Cut A Pizza … Company</title><link href="https://jwilson1172.github.io/Jwilson1172.github.io/2020/02/23/chanellos_reviews.html" rel="alternate" type="text/html" title="How To Cut A Pizza ... Company" /><published>2020-02-23T00:00:00-06:00</published><updated>2020-02-23T00:00:00-06:00</updated><id>https://jwilson1172.github.io/Jwilson1172.github.io/2020/02/23/chanellos_reviews</id><content type="html" xml:base="https://jwilson1172.github.io/Jwilson1172.github.io/2020/02/23/chanellos_reviews.html">&lt;h5 id=&quot;disclaimer&quot;&gt;&lt;a href=&quot;/disclaimer.txt&quot;&gt;DISCLAIMER&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;Looking at the list of words that make up a review is a good way to see recurring trends in the company’s reviews as a whole. I took the public Google reviews of my favorite local pizza chain and analyzed the content within them. I used &lt;a href=&quot;webscraper.io&quot;&gt;Webscraper.io&lt;/a&gt; to scrape the reviews from google maps and put them into a dataset for use in this project.
+While looking at  the most common words that make up a review for each company, I found that there were some outstanding patterns.&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&quot;picture_good_bad&quot; src=&quot;/img/good_vs_bad.png&quot; alt=&quot;graph&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;from-the-above-figure&quot;&gt;from the above figure.&lt;/h4&gt;
+
+&lt;h5 id=&quot;the-most-common-negative-words-for-chanellos-reviews-were&quot;&gt;the most common negative words for Chanello’s reviews were:&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;the amount of time they waited&lt;/li&gt;
+  &lt;li&gt;the amount of money that they paid&lt;/li&gt;
+  &lt;li&gt;the quality of customer support they received&lt;/li&gt;
+  &lt;li&gt;the quality of food they received&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;the-most-common-negative-words-for-calz-reviews-were&quot;&gt;the most common negative words for Calz reviews were:&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;the quality of food that they received&lt;/li&gt;
+  &lt;li&gt;the customer service that they received&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;looking-at-the-most-positive-chanellos-reviews&quot;&gt;looking at the most positive Chanello’s reviews:&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;the quality of food&lt;/li&gt;
+  &lt;li&gt;a few menu items that are unique to that company&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;looking-at-the-most-positive-calz-reviews&quot;&gt;looking at the most positive Calz reviews:&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;focused on the speed of service&lt;/li&gt;
+  &lt;li&gt;the cleanliness of the store&lt;/li&gt;
+  &lt;li&gt;the quality of the food that the customer received&lt;/li&gt;
+  &lt;li&gt;the customer service that they received as well.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Looking at the distribution of ratings over time shows that Chanello’s has received significantly more reviews than Calz both good and bad. Both companies have stores in the same general areas and deliver to the same neighborhoods so this isn’t entirely surprising.
+&lt;img id=&quot;graph_time&quot; src=&quot;/img/pos_neg_overtime.png&quot; alt=&quot;graph&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;conclusion&lt;/h2&gt;
+&lt;p&gt;Considering the ratio of good to bad reviews and the weight of some of the missing factors in Chanello’s good reviews; My conclusion and answer to the original question “what is the difference between the two companies reviews and what factor(‘s) contribute to those reviews” is that while both companies struggle with the same problems, Chanello’s does less to provide solutions, whereas Calz goes above and beyond to offer solutions for the customer.&lt;/p&gt;
+
+&lt;p&gt;for my notebooks you can go to my &lt;a href=&quot;https://github.com/Jwilson1172/lambda/tree/master/unit-1-build&quot;&gt;GitHub Project&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">DISCLAIMER</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jwilson1172.github.io/Jwilson1172.github.io/img/blog_cover_photo.png" /><media:content medium="image" url="https://jwilson1172.github.io/Jwilson1172.github.io/img/blog_cover_photo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://jwilson1172.github.io/Jwilson1172.github.io/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://jwilson1172.github.io/Jwilson1172.github.io/jupyter/2020/02/20/test</id><content type="html" xml:base="https://jwilson1172.github.io/Jwilson1172.github.io/jupyter/2020/02/20/test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
