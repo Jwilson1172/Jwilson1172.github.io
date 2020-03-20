@@ -5,8 +5,6 @@ image: /img/blog_cover_photo.png
 comments: false
 ---
 
-##### [DISCLAIMER](/disclaimer.txt)
-
 Looking at the list of words that make up a review is a good way to see recurring trends in the company’s reviews as a whole. I took the public Google reviews of my favorite local pizza chain and analyzed the content within them. I used [Webscraper.io](webscraper.io) to scrape the reviews from google maps and put them into a dataset for use in this project.
 While looking at  the most common words that make up a review for each company, I found that there were some outstanding patterns.
 
@@ -15,7 +13,7 @@ While looking at  the most common words that make up a review for each company, 
 #### from the above figure.
 
 ##### the most common negative words for Chanello’s reviews were:
-- the amount of time they waited 
+- the amount of time they waited
 - the amount of money that they paid
 - the quality of customer support they received
 - the quality of food they received
@@ -35,6 +33,7 @@ While looking at  the most common words that make up a review for each company, 
 - the customer service that they received as well.
 
 Looking at the distribution of ratings over time shows that Chanello’s has received significantly more reviews than Calz both good and bad. Both companies have stores in the same general areas and deliver to the same neighborhoods so this isn’t entirely surprising.
+
 <img id="graph_time" src="/img/pos_neg_overtime.png" alt="graph">
 
 ## conclusion
