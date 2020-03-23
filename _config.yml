@@ -14,7 +14,7 @@ github_repo: "Jwilson1172.github.io"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value.
-url: "https://Jwilson1172.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://josephwilson.systems" # the base hostname & protocol for your site, e.g. http://example.com
 
 ###########################################################
 #########  Special Instructions for baseurl ###############
@@ -34,7 +34,7 @@ url: "https://Jwilson1172.github.io" # the base hostname & protocol for your sit
 #
 # 3. You must replace the parameter `baseurl` in _action_files/settings.ini with the same value as you set here but WITHOUT QUOTES.
 #
-baseurl: "/Jwilson1172.github.io" # the subpath of your site, e.g. "/blog".
+baseurl: "" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
@@ -49,7 +49,7 @@ use_math: true
 show_description: true
 
 # Set this to true to display image previews on home page, if they exist
-show_image: false
+show_image: true
 
 # Set this to true to display tags on each post
 show_tags: true
