@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://josephwilson.systems/feed.xml" rel="self" type="application/atom+xml" /><link href="https://josephwilson.systems/" rel="alternate" type="text/html" /><updated>2020-04-23T22:01:52-05:00</updated><id>https://josephwilson.systems/feed.xml</id><title type="html">Profile Site</title><subtitle>Joseph Wilson's Porfolio Site.</subtitle><entry><title type="html">How To Cut A Pizza … Company</title><link href="https://josephwilson.systems/2020/02/23/chanellos_reviews.html" rel="alternate" type="text/html" title="How To Cut A Pizza ... Company" /><published>2020-02-23T00:00:00-06:00</published><updated>2020-02-23T00:00:00-06:00</updated><id>https://josephwilson.systems/2020/02/23/chanellos_reviews</id><content type="html" xml:base="https://josephwilson.systems/2020/02/23/chanellos_reviews.html">&lt;p&gt;Looking at the list of words that make up a review is a good way to see recurring trends in the company’s reviews as a whole. I took the public Google reviews of my favorite local pizza chain and analyzed the content within them. I used &lt;a href=&quot;webscraper.io&quot;&gt;Webscraper.io&lt;/a&gt; to scrape the reviews from google maps and put them into a dataset for use in this project.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://josephwilson.systems/feed.xml" rel="self" type="application/atom+xml" /><link href="https://josephwilson.systems/" rel="alternate" type="text/html" /><updated>2020-06-26T08:46:20-05:00</updated><id>https://josephwilson.systems/feed.xml</id><title type="html">Profile Site</title><subtitle>Joseph Wilson's Porfolio Site.</subtitle><entry><title type="html">Naive Bayes Python Implementation</title><link href="https://josephwilson.systems/2020/06/24/naivebayes-model.html" rel="alternate" type="text/html" title="Naive Bayes Python Implementation" /><published>2020-06-24T00:00:00-05:00</published><updated>2020-06-24T00:00:00-05:00</updated><id>https://josephwilson.systems/2020/06/24/naivebayes-model</id><content type="html" xml:base="https://josephwilson.systems/2020/06/24/naivebayes-model.html">&lt;h1&gt;Overview&lt;/h1&gt;
+
+&lt;h2 id=&quot;naive-bayes-classifier&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Naive_Bayes_classifier&quot;&gt;Naive Bayes Classifier&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Bayes’ Theorem is a way that we can calculate the probability of a piece of data belonging to a given class, given our prior knowledge.&lt;/p&gt;
+
+&lt;p&gt;Bayes’ Theorem is stated as:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;P(class|data) = (P(data|class) * P(class)) / P(data)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Where P(class&lt;/td&gt;
+      &lt;td&gt;data) is the probability of class given the provided data.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Naive Bayes is a classification algorithm for binary (two-class) and multi-class classification problems.
+It is called Naive Bayes because the calculations of the probabilities for each class are simplified to make their calculations tractable.&lt;/p&gt;
+
+&lt;p&gt;while calculating the class probabilities the naive bayes algorithm will assume that the features are statistically independent of each other. this assumption is rather strong compared to real world data, however this approve works surprisingly well even on data that doesn’t have independent features.&lt;/p&gt;
+
+&lt;p&gt;During the calculation of probabilities it should be noted that I’m using a CI of 0.95 and that any value that hit’s that borderline is rounded down unless there is not another prediction that meets that minimum threshold then the label with the highest percent chance of occurring for the particular prediction is used.&lt;/p&gt;
+
+&lt;p&gt;For the case that there are headers in the dataset then the headers are dropped because they have little use for testing the algorithm’s effectiveness.&lt;/p&gt;
+
+&lt;p&gt;The training data set is going to be the iris dataset from uci machine learning repo. This dataset was picked because it’s popular and it has mostly numeric features, during the process of development I had some problems dealing with any categorical features without using sklearn libraries to impute and encode them so I opted with the safe route and went with the iris set.&lt;/p&gt;
+
+&lt;p&gt;In addition to the ease of use the iris set was also used because it showcase the instance of features that are correlated being used with the naïve bayes algorithm, which as stated above goes against the natural assumptions of the NB algorithm.&lt;/p&gt;
+
+&lt;p&gt;The tests are compared to the sklearn NaiveBayesClassifier, during the testing I noticed that the runtime of my implementation is terrible compared to the sklearn implementation.
+This fact doesn’t surprise me any because I wrote mine in vanilla python with scipy, numpy, and pandas. Not hardly comparable with the years of development and dedicated C libraries of sklearn.&lt;/p&gt;
+
+&lt;p&gt;To improve the runtime of my implementation I could rewrite the code to use less loops and computationally inefficient practices algo with compile the python into C using cython or something similar to make the translation, there are also some specialized libraries in java(mostly Atomic locking and ThreadFactory’s) that would have be useful to break up the algo’s computation at execution time.&lt;/p&gt;
+
+&lt;p&gt;For the time that I had and the stumbles that I made this Implementation is the best that I’ve found, that also works as expected with the iris dataset and a generated gaussian set(Not shown but was part of the testing process).&lt;/p&gt;
+
+&lt;p&gt;for my full code please see my &lt;a href=&quot;https://github.com/Jwilson1172/NaiveBayes&quot;&gt;Github Repository&lt;/a&gt; holding all of the source code.&lt;/p&gt;</content><author><name></name></author><summary type="html">Overview</summary></entry><entry><title type="html">How To Cut A Pizza … Company</title><link href="https://josephwilson.systems/2020/02/23/chanellos_reviews.html" rel="alternate" type="text/html" title="How To Cut A Pizza ... Company" /><published>2020-02-23T00:00:00-06:00</published><updated>2020-02-23T00:00:00-06:00</updated><id>https://josephwilson.systems/2020/02/23/chanellos_reviews</id><content type="html" xml:base="https://josephwilson.systems/2020/02/23/chanellos_reviews.html">&lt;p&gt;Looking at the list of words that make up a review is a good way to see recurring trends in the company’s reviews as a whole. I took the public Google reviews of my favorite local pizza chain and analyzed the content within them. I used &lt;a href=&quot;webscraper.io&quot;&gt;Webscraper.io&lt;/a&gt; to scrape the reviews from google maps and put them into a dataset for use in this project.
 While looking at  the most common words that make up a review for each company, I found that there were some outstanding patterns.&lt;/p&gt;
 
 &lt;p&gt;&lt;img id=&quot;picture_good_bad&quot; src=&quot;/img/good_vs_bad.png&quot; alt=&quot;graph&quot; /&gt;&lt;/p&gt;
