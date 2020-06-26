@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Naive Bayes Python Implementation
+image: /img/bayes_cover.png
 comments: false
 ---
 
