@@ -13,7 +13,7 @@ Bayes’ Theorem is a way that we can calculate the probability of a piece of da
 
 Bayes’ Theorem is stated as:
 
-    P(class|data) = (P(data|class) * P(class)) / P(data)
+```P(class|data) = (P(data|class) * P(class)) / P(data)```
 
 Where P(class|data) is the probability of class given the provided data.
 
